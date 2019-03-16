@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body, html {
+width: 100%;
+height: 100%;
+font-family: 'Poppins' , sans-serif;
+color:  #222 ;
+}
+
+.row {
+text-align: center;
+}
+
+.row p {
+display:block;
+padding-bottom: 10px;
+font-size: 18px;
+}
+
+.row button {
+margin-top: 15px;
+font-size: 20px;
+}
+
+.jumbotron {
+margin-bottom: 0px;
+}
+
+
+/*HEADER*/
+.navbar-brand img {
+width: 320px ;
+height: 100px;
+}
+
+.nav-link {
+font-size: 1.1em;
+}
+
+
+
+/*Основной блок*/
+
+.girl {
+background-image: url(https://www.firestock.ru/wp-content/uploads/2015/08/Dollarphotoclub_72821478-700x465.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+padding: 0px;
+}
+
+.looking {
+background-color: rgba(255,0,0, .3);
+height: 500px;
+}
+
+.candidate {
+font-style: italic;
+padding-top:120px;
+margin-bottom: 5px;
+}
+
+.job {
+font-weight: bolder;
+}
+
+.managing {
+background-color: #7ACFD6;
+height: 500px;
+}
+
+
+
+/* Про нас блок */
+.hi {
+width: 100px;
+height: 100px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 40px;
+}
+
+.jumbotron {
+height: 500px;
+}
+
+.raising p {
+padding-top: 15px;
+}
+
+.about-btn {
+color: #222 ;
+margin-top: 20px;
+}
+
+
+
+/*Предложение*/
+
+.hall {
+height: auto;
+background-image: url(https://img2.cgtrader.com/items/597613/b58abbd793/lobby-hall-foyer-office-commercial-business-scene-interior-3d-model-max-obj-mtl-fbx-stl-3dm-dwg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: 50% 50%;
+padding: 75px 15px 75px 15px;
+top: -75px;
+}
+
+.people {
+background-color: rgba(255,0,0, .6);
+text-align: left;
+padding: 40px 50px 50px 50px;
+display: inline-block;
+}
+
+
+
+/* Сервисы */
+
+.services span {
+font-size: 20;
+color: #727271;
+margin-bottom: 10px;
+display: block;
+}
