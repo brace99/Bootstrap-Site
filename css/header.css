@@ -12,6 +12,15 @@ a {
 color: #222 ;
 }
 
+ul {
+list-style-type: none;
+text-align: left;
+}
+
+li {
+margin-bottom: 15px;
+}
+
 .row {
 text-align: center;
 }
@@ -167,12 +176,11 @@ font-size: 20px;
 .doubleblocks {
 letter-spacing: 2px;
 line-height: 75px;
-margin-bottom: 50px;
 }
 
 .redblock {
 background-color: #E4191C;
-
+padding-right: 80px;
 }
 
 .blueblock {
@@ -186,17 +194,43 @@ padding: 0px;
 
 /* Клиент логин */
 
-.client b {
-margin-top: 10px;
-display:block;
+.holo {
+margin-top: 30px;
 }
 
-.client i {
-margin-top: 10px;
-display:block;
+.workbar {
+margin-top: 30px;
+font-style: italic;
+height: 50px;	
 }
 
 .client button {
-margin-bottom: 20px;
-margin-top: 0px;
+margin-bottom: 30px;
+margin-top: 20px;
 }
+
+/* Footer */
+
+.boxlist h4 {
+margin-bottom: 20px;
+}
+
+.follow {
+margin-top: 50px;
+text-align: left;
+letter-spacing: 3px;
+}
+
+.blog {
+margin-top: 50px;
+}
+
+.follow h4 {
+margin-bottom: 20px;
+}
+
+.follow i {
+font-size: 40px;
+padding-right:30px;
+}
+
