@@ -8,6 +8,10 @@ font-family: 'Poppins' , sans-serif;
 color:  #222 ;
 }
 
+a {
+color: #222 ;
+}
+
 .row {
 text-align: center;
 }
@@ -23,9 +27,10 @@ margin-top: 15px;
 font-size: 20px;
 }
 
-.jumbotron {
-margin-bottom: 0px;
+.col-xl-6 {
+padding: 0px;
 }
+
 
 
 /*HEADER*/
@@ -82,8 +87,9 @@ margin-right: auto;
 margin-bottom: 40px;
 }
 
-.jumbotron {
-height: 500px;
+.raising {
+height: 450px;
+margin-top: 50px;
 }
 
 .raising p {
@@ -91,10 +97,12 @@ padding-top: 15px;
 }
 
 .about-btn {
-color: #222 ;
 margin-top: 20px;
 }
 
+.jumbotron {
+margin: 0px;
+}
 
 
 /*Предложение*/
@@ -125,4 +133,70 @@ font-size: 20;
 color: #727271;
 margin-bottom: 10px;
 display: block;
+}
+
+.more-blocks {
+background-color: #F1F0EE;
+display: block;
+padding: 50px 30px 50px 30px;
+word-wrap: break-word;
+margin-bottom: 50px;
+margin-top: 50px;
+}
+
+.more-blocks:nth-child(3) {
+word-spacing: 80px;
+}
+
+.more-blocks i {
+font-size: 50px;
+margin-bottom: 30px;
+}
+
+.more-blocks h3 {
+margin-bottom: 20px;
+}
+
+.more-blocks a {
+font-size: 20px;
+}
+
+
+/* Двухцветный блок */
+
+.doubleblocks {
+letter-spacing: 2px;
+line-height: 75px;
+margin-bottom: 50px;
+}
+
+.redblock {
+background-color: #E4191C;
+
+}
+
+.blueblock {
+background-color: #77CED7;
+}
+
+.col-6 {
+padding: 0px;
+}
+
+
+/* Клиент логин */
+
+.client b {
+margin-top: 10px;
+display:block;
+}
+
+.client i {
+margin-top: 10px;
+display:block;
+}
+
+.client button {
+margin-bottom: 20px;
+margin-top: 0px;
 }
